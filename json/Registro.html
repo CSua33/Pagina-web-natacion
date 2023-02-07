@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script type="text/javascript" src="datos.js"></script>
+    
+    <title>Document</title>
+
+    <section>
+      <div>
+        <form action="datos.php" method="POST">
+            <div class="form-group">
+                <label for="">Producto</label>
+                <input type="text" name="Producto" class="form-control" id="Producto" >
+              </div>
+            <div class="form-group">
+              <label for="">Nombre</label>
+              <input type="text" name="Nombre" class="form-control" id="Nombre" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="">Marca</label>
+              <input type="text" name="Marca" class="form-control" id="Marca">
+            </div>
+            <div class="form-group">
+              <label for="">Talla</label>
+              <input type="text" name="Talla" class="form-control" id="Talla">
+            </div>
+        <div class="form-group">
+            <label for="">Color</label>
+            <input type="text" name="Color" class="form-control" id="Color">
+          </div>
+          <div class="form-group">
+            <label for="">Precio</label>
+            <input type="text" name=Precio class="form-control" id="Precio">
+          </div>
+          <div class="form-group">
+            <label for="">Genero</label>
+            <input type="text" name=Genero class="form-control" id="Genero">
+          </div>
+
+            <br>
+            <button type="submit" name="enviar" class="btn btn-primary">Guardar</button>
+            <script type="text/javascript" src="datos.json"></script>
+          </form>
+      </div>
+    </section>
+<br>
+    <section >
+      <h2>Productos</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Producto</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Talla</th>
+            <th scope="col">Color</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Genero</th>
+          </tr>
+        </thead>
+        <tbody id="tabla">
+          
+        </tbody>
+      </table>
+
+    </section>
+    
+
+</head>
+<body>
+    
+</body>
+</html>

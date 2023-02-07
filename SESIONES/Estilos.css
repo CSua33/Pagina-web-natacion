@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  .centro
+  { 
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  }
+  .comentario{
+
+    border:black 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    background: white;
+    text-decoration: none;
+}
+.blanco{
+
+    
+    background: white;
+    
+}
+.der
+  { 
+  display:flex;
+  justify-content: right;
+  align-content: right;
+  align-items: right;
+}

@@ -1,0 +1,139 @@
+.banner{
+  width: 1200px;
+  height: 545px;
+  border: 3xp solid black;
+  border-radius: 20px;
+  margin: auto;
+  
+  background-size: 100% 100%;
+  animation: banner 10s infinite;
+}
+ @keyframes banner{
+   0%, 30%{
+    background-image: url(img/portada.PNG);
+   opacity: 1;
+  }
+  31%, 34%{
+    opacity:0.1%;
+  }
+   36%, 65%{
+    background-image: url(img/mochilas_2.PNG);
+    opacity: 1;
+  }
+  66%, 69%{
+    opacity:0.1%;
+  }
+  70%, 100%{
+      background-image: url(img/googles_2.PNG);
+      opacity: 1;
+    }
+ }
+ .container-fluid a{
+
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+.foto{
+    height: 400px;
+    width: 550px;
+   
+    border-radius: 20px;
+}
+.centro
+{ 
+display:flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+.centro_fotos
+{ 
+display:flex;
+justify-content: center;
+white-space: normal;
+line-height: 60pt;  
+}
+a:hover {
+    color: rgb(173, 169, 169);
+    text-decoration: none;
+  }
+  a{
+    color: black;text-decoration: none;
+  }
+  .centro a{
+      color: black;
+      text-decoration: none;
+  }
+  .centro a:hover {
+    color: rgb(173, 169, 169);text-decoration: none;
+    
+  }
+  .centro
+  { 
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: large; 
+  }
+.comprar a{
+  color: white;
+  border: rgb(187, 184, 184) 1px solid;
+  border-radius: 5px;
+  border-width: 10px;
+  border-color: red;
+  background: red;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+h2{
+  
+  margin: 20px;
+  
+}
+
+ .redondear
+ {
+  border-radius: 20px;
+ }
+ 
+ .fotos{
+  width: 250px;
+  height: 250px; 
+  border: rgb(187, 184, 184) 1px solid;
+  border-radius: 20px;
+}
+h4{
+  
+  text-align: left;
+  padding-left: 50px;
+  
+}
+.comentario{
+
+    border:black 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    background: white;
+    text-decoration: none;
+}
+
+.coment{
+
+  border:red 1px solid;
+  border-radius: 5px;
+  width: 1000px;
+  background: white;
+  text-decoration: none;
+}
+#search {
+  width: 20em;  height: 2em;
+}
